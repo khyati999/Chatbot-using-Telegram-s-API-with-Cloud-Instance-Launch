@@ -47,3 +47,27 @@ The AWS Console app offers a convenient dashboard for users to directly view  th
 
 
 **12. Telegram Bot API (Output):** Finally, Boto3 sends the final result back to  the Telegram Bot API. The Telegram Bot API then responds to the user with  the requested information or actions related to the EC2 instances. 
+
+**Development**
+
+**1. Install Python:** Install it from the official Python website: https://www.python.org/downloads/
+
+**2. Install a Code Editor:** Choose a code editor or integrated development  environment (IDE) to write your Python code. Some popular options  include:
+• Visual Studio Code (VSCode)
+• PyCharm
+• Sublime Text
+
+**3. Create a Telegram Bot: **
+3.1 Open Telegram and search for the "BotFather" bot.
+3.2 Start a chat with the BotFather and use the /newbot command to create  a new bot.
+3.3 Follow the instructions provided by the BotFather to set a name and  username for your bot.
+3.4 Once your bot is created, the BotFather will provide you with a token.  Save this token as you'll need it in your Python code.
+
+**4. Install the Python Telegram API Library:** I need a library to interact with  the Telegram Bot API. One popular choice is python-telegram-bot. Install it  using pip: pip install python-telegram-bot
+
+**5. Install AWS CLI (Command Line Interface):** The AWS CLI is a  command-line tool that allows you to interact with AWS services, including EC2. You can install it using pip, Python's package manager, with the  following command: pip install aws cli
+
+**6. Configure AWS CLI:** After installing the AWS CLI, you need to configure  it with your AWS credentials. Run the following command and follow the  prompts to enter your AWS access key ID, secret access key, default region,  and output format: “aws configure”
+
+**7. Install Boto3:** Boto3 is the official AWS SDK for Python and provides a  Pythonic way to interact with AWS services, including EC2.  Install it using pip: pip install boto3 
+
