@@ -57,7 +57,7 @@ The AWS Console app offers a convenient dashboard for users to directly view  th
 • PyCharm
 • Sublime Text
 
-**3. Create a Telegram Bot: **
+**3. Create a Telegram Bot:** 
 3.1 Open Telegram and search for the "BotFather" bot.
 3.2 Start a chat with the BotFather and use the /newbot command to create  a new bot.
 3.3 Follow the instructions provided by the BotFather to set a name and  username for your bot.
